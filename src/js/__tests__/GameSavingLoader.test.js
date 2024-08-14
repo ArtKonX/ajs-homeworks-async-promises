@@ -1,6 +1,6 @@
 import GameSavingLoader from "../classes/GameSavingLoader";
 
-test('Тест метода load класса GameSavingLoader', () => {
+test('Тест метода load класса GameSavingLoader', async () => {
     const res = JSON.stringify(
         {
             id: 9,
